@@ -1,0 +1,99 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffafa;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1em;
+    overflow: hidden; /* Clearfix para conter elementos flutuantes */
+    border-radius: 30px; /* Adicionando bordas arredondadas */
+    margin: 20px; /* Espaço ao redor do header */
+}
+
+.header-block {
+    color: #000;
+    float: left;
+}
+
+.header-nav {
+    float: right;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+header h1 {
+    color:#fff
+}
+
+section {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 100vh; /*ocupa 100% da altura da viewport */
+    margin: 0%; 
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+p {
+    line-height: 1.6;
+    color: #000000;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+footer {
+    clear: both; /* Limpa os elementos flutuantes */
+    text-align: center;
+    text-shadow: #fff;
+    padding: 30px;
+    background-color: #000000;
+    color: #ffffff !important;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+    color: #000000;
+}
